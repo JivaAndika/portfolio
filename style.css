@@ -451,11 +451,11 @@ img {
     padding: 4rem 0;
   }
   .about__img {
-    width: 200px;
-    height: 200px;
+    width: 440px;
+    height: 440px;
   }
   .about__img img {
-    width: 165px;
+    width: 400px;
   }
 
   .skills__container {
