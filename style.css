@@ -323,6 +323,51 @@ img {
   color: var(--dark-color);
 }
 
+/* ===== EDUCATION ===== */
+.education {
+  padding: 2rem 0;
+}
+
+.education__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem; /* Added padding for better spacing */
+  text-align: center; /* Center-align text */
+}
+
+@media screen and (max-width: 768px) {
+  .education__subtitle {
+    font-size: 1.2rem; /* Smaller font size for subtitle */
+  }
+  .education__institution,
+  .education__year {
+    font-size: 1rem; /* Adjust font size for institution and year */
+  }
+  .education__description {
+    font-size: 0.9rem; /* Smaller font size for description */
+    padding: 0 1rem; /* Add padding for better spacing */
+  }
+  .education__container {
+    padding: 1rem; /* Adjust padding for container */
+  }
+}
+
+.education__subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.education__institution,
+.education__year {
+  display: block;
+  font-size: 1.1rem;
+}
+
+.education__description {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
 /* ===== CONTACT =====*/
 .contact__container {
   row-gap: 2rem;
